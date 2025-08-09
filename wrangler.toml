@@ -1,0 +1,14 @@
+name = "vibe-coder-mission-control"
+main = "./build/server/index.mjs"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "pnpm run build"
+
+[site]
+bucket = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vibe-coder-mission-control-db"
+database_id = "b8191b98-f34e-4750-adc8-4fbad37fd4ad"
